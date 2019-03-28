@@ -12,7 +12,6 @@ curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh  
     npm install -g forever
     forever start bin/www
     forever list
-    forever logs 0 -f
     exit
 EOF
 
